@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ES2017", "DOM"],
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "declaration": true,
+    "stripInternal": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "allowJs": true,
+    "outDir": "build",
+    "jsx": "react",
+    "types": ["webpack-env"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}
